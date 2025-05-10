@@ -1,8 +1,8 @@
 function enviarFormulario(event) {
 event.preventDefault();
-const nome = document.getElementById.value;
-const email = document.getElementById.value;
-const telefone = document.getElementById.value;
+const nome = document.getElementById('nomeContato').value;
+const email = document.getElementById('emailContato').value;
+const telefone = document.getElementById('telefoneContato').value;
 
 const mensagem =`
 Dados enviados com sucesso!<br>
